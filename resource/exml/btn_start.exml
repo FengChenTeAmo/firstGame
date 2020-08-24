@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="skins.BtnStart" width="576" height="337" currentState="begin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" xmlns:tween="egret.tween.*" states="begin,begin-1"  width.begin="640" height.begin="1136">
+	<w:Declarations>
+		<tween:TweenGroup id="begin">
+			<tween:TweenItem target="{start_btn}">
+				<tween:To duration="2000" ease="bounceOut">
+					<tween:props>
+						<e:Object x="{208.9}" y="{800}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+
+
+		</tween:TweenGroup>
+	</w:Declarations>
+	<w:Config id="1740eda223f"/>
+	<e:Image source="start_bg_jpg" includeIn="begin" x="0" y="0"/>
+	<e:Image id="start_btn" source="btn_start_png" x="169.5" y="3" x.begin="208.9" y.begin="509.05"/>
+</e:Skin>
